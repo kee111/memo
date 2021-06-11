@@ -51,3 +51,7 @@ master
 - git branch -D 名前
 
     - ブランチ削除
+
+- git log
+
+    - コミット履歴を見れる
