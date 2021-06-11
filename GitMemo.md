@@ -30,3 +30,23 @@
 - git pull origin 
 master
     変更を更新
+
+- git dif
+
+    変更したか確認する
+
+- git branch 名前
+
+    branchを作成
+
+- git checkout 名前
+
+    branchを変える
+
+- git branch
+
+    今あるブランチを確認
+
+- git branch -D 名前
+
+    ブランチ削除
