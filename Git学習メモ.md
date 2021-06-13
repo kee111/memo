@@ -27,8 +27,7 @@
 - git clone sshのURL
 
     - ディレクトリを作っておいて、このコマンドを打つと友達のリポジトリにあるフォルダがローカルにコピーされる。
-- git pull origin 
-master
+- git pull origin master
 
     - 変更を更新
 
@@ -55,3 +54,9 @@ master
 - git log
 
     - コミット履歴を見れる
+
+- git stash
+
+    - masterで作業してしまった時に、一度コードをリセットして、ブランチを切り替えた時に移し替えてくれる(めっちゃ便利)
+    - git branch で新しくブランチを切った後、git checkout　で新しいブランチに切り替える。
+    git stach pop  を打ち込むと新しいブランチに前のブランチで間違って書いたコードがコピーされる
