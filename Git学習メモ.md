@@ -1,65 +1,71 @@
-- git init
+-   git init
 
-    - このコマンドを使うとギットハブを使う為のファイルが生成される。
-    .gitが作られる
+    -   このコマンドを使うとギットハブを使う為のファイルが生成される。
+        .git が作られる
 
-- git remote add origin sshのURL
+-   git remote add origin ssh の URL
 
-    - これをコピペすると行き先場所の設定
+    -   これをコピペすると行き先場所の設定
 
+-   git add git add.
 
-- git add git add.
+    -   出荷前の荷物をまとめる感じ
+        .をつけると全部
 
-    - 出荷前の荷物をまとめる感じ
-    .をつけると全部
-- git commit -m　”あああ”
+-   git commit -m 　”あああ”
 
-    - 出荷するときの名前をつけれる
-- origin
+    -   出荷するときの名前をつけれる
 
-    - 行き先のurlのこと
-- git push origin master
+-   origin
 
-    - オリジン(url)のに出荷します
-- 出荷のやり方
+    -   行き先の url のこと
 
-    - .gitがあるディレクトリまで行ってコマンドを打たないと出荷できない。
-- git clone sshのURL
+-   git push origin master
 
-    - ディレクトリを作っておいて、このコマンドを打つと友達のリポジトリにあるフォルダがローカルにコピーされる。
-- git pull origin master
+    -   オリジン(url)のに出荷します
 
-    - 変更を更新
+-   出荷のやり方
 
-- git dif
+    -   .git があるディレクトリまで行ってコマンドを打たないと出荷できない。
 
-    - 変更したか確認する
+-   git clone ssh の URL
 
-- git branch 名前
+    -   ディレクトリを作っておいて、このコマンドを打つと友達のリポジトリにあるフォルダがローカルにコピーされる。
 
-    - branchを作成
+-   git pull origin master
 
-- git checkout 名前
+    -   変更を更新
 
-    - branchを変える
+-   git dif
 
-- git branch
+    -   変更したか確認する
 
-    - 今あるブランチを確認
+-   git branch 名前
 
-- git branch -D 名前
+    -   branch を作成
 
-    - ブランチ削除
+-   git checkout 名前
 
-- git log
+    -   branch を変える
 
-    - コミット履歴を見れる
+-   git branch
 
-- git reset --hard コミットID
-    - 打ち込んだコミットIDのコードまで戻れる
+    -   今あるブランチを確認
 
-- git stash
+-   git branch -D 名前
 
-    - masterで作業してしまった時に、一度コードをリセットして、ブランチを切り替えた時に移し替えてくれる(めっちゃ便利)
-    - git branch で新しくブランチを切った後、git checkout　で新しいブランチに切り替える。
-    git stach pop  を打ち込むと新しいブランチに前のブランチで間違って書いたコードがコピーされる
+    -   ブランチ削除
+
+-   git log
+
+    -   コミット履歴を見れる
+
+-   git reset --hard コミット ID
+
+    -   打ち込んだコミット ID のコードまで戻れる
+
+-   git stash
+
+    -   master で作業してしまった時に、一度コードをリセットして、ブランチを切り替えた時に移し替えてくれる(めっちゃ便利)
+    -   git branch で新しくブランチを切った後、git checkout 　で新しいブランチに切り替える。
+        git stach pop を打ち込むと新しいブランチに前のブランチで間違って書いたコードがコピーされる

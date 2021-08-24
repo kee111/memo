@@ -1,36 +1,43 @@
-# macにnode.jsをインストール
+# mac に node.js をインストール
 
-#### nodebrewのインストール
+#### nodebrew のインストール
+
 ```
 brew install nodebrew
 ```
 
-#### nodebrewのバージョンを確認
+#### nodebrew のバージョンを確認
+
 ```
 nodebrew -v
 ```
 
-#### nodejsのセットアップ
+#### nodejs のセットアップ
+
 ```
 nodebrew setup
 ```
 
-#### nodejsのインストール(安定版)
+#### nodejs のインストール(安定版)
+
 ```
 nodebrew install-binary stable
 ```
 
-#### nodejsのバージョンを確認
+#### nodejs のバージョンを確認
+
 ```
 nodebrew ls
 ```
 
-#### nodejaの有効化
+#### nodeja の有効化
+
 ```
 nodebrew use インストールしたバージョン
 ```
 
 #### 環境パスの通しかた
+
 ```
 作成中、、、
 ```
