@@ -1,71 +1,104 @@
--   git init
+#### github を使うためのファイル「.git」が生成される
 
-    -   このコマンドを使うとギットハブを使う為のファイルが生成される。
-        .git が作られる
+```
+git init
+```
 
--   git remote add origin ssh の URL
+#### 行き先場所の設定
 
-    -   これをコピペすると行き先場所の設定
+```
+git remote add origin ssh の URL
+```
 
--   git add git add.
+#### 出荷前の荷物をまとめる感じ
 
-    -   出荷前の荷物をまとめる感じ
-        .をつけると全部
+.をつけると全部
 
--   git commit -m 　”あああ”
+```
+git add ファイル名
+git add .
+```
 
-    -   出荷するときの名前をつけれる
+#### 出荷するときの説明文をつけれる
 
--   origin
+```
+git commit -m ”説明文”
+```
 
-    -   行き先の url のこと
+#### origin(行き先の url)に出荷します
 
--   git push origin master
+```
+git push origin master
+```
 
-    -   オリジン(url)のに出荷します
+#### ディレクトリを作っておいて、このコマンドを打つと友達のリポジトリにあるフォルダがローカルにコピーされる。
 
--   出荷のやり方
+```
+git clone ssh の URL
+```
 
-    -   .git があるディレクトリまで行ってコマンドを打たないと出荷できない。
+#### 変更を更新
 
--   git clone ssh の URL
+```
+git pull origin master
+```
 
-    -   ディレクトリを作っておいて、このコマンドを打つと友達のリポジトリにあるフォルダがローカルにコピーされる。
+#### 変更したかを確認する
 
--   git pull origin master
+```
+git dif
+```
 
-    -   変更を更新
+#### branch を作成
 
--   git dif
+```
+git branch 名前
+```
 
-    -   変更したか確認する
+#### branch を変える
 
--   git branch 名前
+```
+git checkout 名前
+```
 
-    -   branch を作成
+#### いまある branch を確認
 
--   git checkout 名前
+```
+git branch
+```
 
-    -   branch を変える
+#### branch 削除
 
--   git branch
+```
+git branch -D 名前
+```
 
-    -   今あるブランチを確認
+#### コミット履歴が見れる
 
--   git branch -D 名前
+```
+git log
+```
 
-    -   ブランチ削除
+#### 打ち込んだコミット ID のコードまで戻れる
 
--   git log
+```
+git reset --hard コミット ID
+```
 
-    -   コミット履歴を見れる
+#### master で作業してしまった時に、一度コードをリセットして、ブランチを切り替えた時に移し替えてくれる(めっちゃ便利)
 
--   git reset --hard コミット ID
+```
+git stash
+```
 
-    -   打ち込んだコミット ID のコードまで戻れる
+#### git branch で新しくブランチを切った後、git checkout で新しいブランチに切り替える。
 
--   git stash
+```
+git checkout
+```
 
-    -   master で作業してしまった時に、一度コードをリセットして、ブランチを切り替えた時に移し替えてくれる(めっちゃ便利)
-    -   git branch で新しくブランチを切った後、git checkout 　で新しいブランチに切り替える。
-        git stach pop を打ち込むと新しいブランチに前のブランチで間違って書いたコードがコピーされる
+#### git stach pop を打ち込むと新しいブランチに前のブランチで間違って書いたコードがコピーされる
+
+```
+git stach pop
+```
