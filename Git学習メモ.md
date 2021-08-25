@@ -1,4 +1,6 @@
-#### github を使うためのファイル「.git」が生成される
+# GitHub コマンド集
+
+github を使うためのファイル「.git」が生成される
 
 ```
 git init
