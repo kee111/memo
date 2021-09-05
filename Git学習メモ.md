@@ -104,3 +104,9 @@ git checkout
 ```
 git stach pop
 ```
+
+#### originを削除。  
+エラーが出た時とかに使える。
+```
+git remote rm origin
+```
