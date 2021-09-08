@@ -53,6 +53,7 @@ onchange 属性に関数を突っ込むとユーザーが何か(上記のよう�
 
 onsubmit とはイベントハンドラの一つ  
 こんな感じで form タグの中に入れて使うやつ。
+preventDefault()でフォーム送信をキャンセルして新しい処理を書くなど、preventDefault()と一緒に使われることが多い。
 
 ```js
 <form onSubmit={handleSubmit}>
