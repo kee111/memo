@@ -1,3 +1,23 @@
+## ReactDOM.render()について
+
+ReactDOM.render();関数は 2 つ引数を取る。
+
+```js
+const element = <h1>Hello, world</h1>;
+ReactDOM.render(element, document.getElementById("root"));
+```
+
+<br>
+引数2 : わたちここにjsx表示したいんだけどお、データちょーだい
+
+引数 1 : いいお、この jsx 使いなよ。
+
+引数 2 : やったーありがとお  
+<br>
+<br>
+第一引数 : 表示する jsx  
+第二引数 : 表示したい場所(html 側の id などで取得)
+
 ## イベントハンドラーとは
 
 -   ユーザーの操作：ボタンを押した、キーボードのキーを押した
