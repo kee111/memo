@@ -10,8 +10,7 @@ ReactDOM.render(element, document.getElementById("root"));
 <br>
 引数2 : わたちここにjsx表示したいんだけどお、データちょーだい
 
-引数 1 : いいお、この jsx 使いなよ。
-
+引数 1 : いいお、この jsx 使いなよ。  
 引数 2 : やったーありがとお  
 <br>
 <br>
