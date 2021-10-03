@@ -108,4 +108,18 @@ letter-spacingプロパティを用いることで文字の間隔を指定する
 
 <br>
 
-##
+## メディアクエリの書き方
+
+メディアクエリは、@media (条件) { .... }という様に書きます。
+指定された条件が当てはまるときにのみ{ }内のCSSが適用されます。  
+<br>
+メディアクエリの条件には、max-width(最大幅)、またはmin-width(最小幅)を指定できます。  
+max-width: ◯◯pxと指定すると、画面幅が◯◯px以下の時にCSSを適用できます。min-widthはその反対となります。  
+
+<br>
+
+## box-sizing: border-box;の仕組み
+
+box-sizingをborder-boxに指定すると、要素の幅(width)の合計にpaddingとborderが含まれるようになります。  
+そのため、paddingやborderを追加した時に生じるレイアウト崩れを未然に防ぐことができます  
+（※ただし、marginはborder-boxでの合計値に含まれません）。
