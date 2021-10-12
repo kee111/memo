@@ -59,11 +59,13 @@ export default App;
 
 <br>
 
-## 不用ファイル削除
-
+## 不用ファイル削除 & scssファイルに拡張子変更
+ルートディレクトリで実行
 ```
 rm -rf public/*.ico public/*.png public/*.json public/*.txt
 rm -rf src/*.svg src/serviceWorker.js src/App.test.js
+mv src/index.css src/index.scss
+mv src/App.css src/App.scss
 ```
 
 <br>
