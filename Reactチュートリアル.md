@@ -73,7 +73,8 @@ mkdir src/components
 <br>
 
 ## scss のインストール
-こいつがコンパイラしてくれるので、拡張機能のlive scssは使わなくて良い
+こいつがコンパイラしてくれるので、拡張機能のlive scssは使わなくて良い。  
+拡張機能がonになっていると余計なファイルが作られるので、offにしておくこと。
 ```
 npm install sass
 ```
