@@ -27,17 +27,6 @@ npx create-react-app プロジェクト名
 
 <br>
 
-## index.css の中身
-App.cssの中身も全削除
-```css
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-```
-
-<br>
 
 ## index.js の中身
 
@@ -71,15 +60,14 @@ export default App;
 
 <br>
 
-## 不用ファイル削除 & scss ファイルに拡張子変更
+## 不用ファイル削除 & index.scss作成
 
 ルートディレクトリで実行
 
 ```
 rm -rf public/*.ico public/*.png public/*.json public/*.txt
-rm -rf src/*.svg src/serviceWorker.js src/App.test.js
-mv src/index.css src/index.scss
-mv src/App.css src/App.scss
+rm -rf src/*.svg src/serviceWorker.js src/App.test.js src/*.css
+touch index.scss
 ```
 
 <br>
