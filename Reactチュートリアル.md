@@ -67,12 +67,13 @@ export default App;
 rm -rf public/*.ico public/*.png public/*.json public/*.txt
 rm -rf src/*.svg src/serviceWorker.js src/App.test.js src/*.css
 touch src/index.scss
+mkdir src/components
 ```
 
 <br>
 
 ## scss のインストール
-
+こいつがコンパイラしてくれるので、拡張機能のlive scssは使わなくて良い
 ```
 npm install sass
 ```
