@@ -45,7 +45,6 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ```js
 import React from "react";
-import "./App.css";
 
 function App() {
     return (
@@ -67,7 +66,7 @@ export default App;
 ```
 rm -rf public/*.ico public/*.png public/*.json public/*.txt
 rm -rf src/*.svg src/serviceWorker.js src/App.test.js src/*.css
-touch src/App.scss src/index.scss
+touch src/index.scss
 ```
 
 <br>
