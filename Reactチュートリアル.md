@@ -67,7 +67,7 @@ export default App;
 ```
 rm -rf public/*.ico public/*.png public/*.json public/*.txt
 rm -rf src/*.svg src/serviceWorker.js src/App.test.js src/*.css
-touch index.scss
+touch src/App.scss src/index.scss
 ```
 
 <br>
